@@ -2,6 +2,7 @@
     background-color: var(--footer-bg);
     color: var(--footer-text);
     padding: 40px 0 0;
+    letter-spacing: 1px;
 }
 
 .footerBrand {
@@ -16,7 +17,7 @@
 .footerDesc {
     font-size: 14px;
     line-height: 1.6;
-    color: #cbd5e0;
+    color: var(--footer-desc);
     max-width: 300px;
 }
 
@@ -48,7 +49,7 @@
 }
 
 .footerLinks a {
-    color: #cbd5e0;
+    color: var(--footer-desc);
     text-decoration: none;
     transition: 0.3s;
     font-size: 15px;
@@ -82,11 +83,11 @@
     margin-top: 40px;
     text-align: center;
     font-size: 14px;
-    color: #a0aec0;
+    color: var(--footer-buttom-bar);
 }
 
 .heartIcon {
-    color: #e53e3e;
+    color: var(--footer-heart-icon);
     animation: pulse 1.5s infinite;
 }
 

@@ -20,7 +20,10 @@
     /* Footer Variables */
     --footer-bg: #022c37;
     --footer-text: #ecf0f3;
+    --footer-desc: #cbd5e0;
+    --footer-buttom-bar: #a0aec0;
     --footer-bottom-bg: #011d24;
+    --footer-heart-icon: #e53e3e;
 }
 
 html {

@@ -18,10 +18,10 @@ function Footer() {
                             Front-end developer focused on building beautiful and functional user interfaces. Let's create something amazing together.
                         </p>
                         <div className={socialIcons}>
-                            <a href={github} target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i></a>
-                            <a href={linkedin} target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
-                            <a href={facebook} target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook"></i></a>
                             <a href={whatsapp} target="_blank" rel="noreferrer"><i className="fa-brands fa-whatsapp"></i></a>
+                            <a href={facebook} target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook"></i></a>
+                            <a href={linkedin} target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
+                            <a href={github} target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i></a>
                         </div>
                     </div>
 
