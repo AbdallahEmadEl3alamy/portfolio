@@ -1,0 +1,57 @@
+.servicesSection {
+    background-color: var(--bg-primary);
+    padding: 60px 0;
+}
+
+.servicesTitle {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.servicesTitle span {
+    color: var(--secondary-color);
+}
+
+.cardCollection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-top: 20px;
+}
+
+.serviceCard {
+    background-color: white;
+    padding: 35px 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: var(--card-shadow);
+    flex: 1 1 clamp(250px, 20%, 350px);
+    transition: all 0.4s ease;
+    border-bottom: 4px solid transparent;
+}
+
+.serviceCard:hover {
+    transform: translateY(-10px);
+    border-bottom: 4px solid var(--secondary-color);
+    box-shadow: var(--card-shadow);
+}
+
+.serviceIcon {
+    font-size: 45px;
+    color: var(--secondary-color);
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.serviceTitleText {
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.serviceCard p {
+    color: var(--gray);
+    font-size: 15px;
+    line-height: 1.6;
+}

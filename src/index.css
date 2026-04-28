@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary-color: #033b4a;
+    --secondary-color: #20c997;
+    --gray: #4a4a4d;
+    --bg-primary: #ecf0f3;
+    /* Skills Variables */
+    --card-hover-bg: #57575a;
+    --card-shadow: rgba(0, 0, 0, 0.1);
+    /* Contact Variables */
+    --inputFieldOnFocus: 0 0 0 0.25rem rgba(32, 201, 151, 0.1);
+    --submitBtnHover: #15a076;
+    --statusError: #dc3545;
+    /* Footer Variables */
+    --footer-bg: #022c37;
+    --footer-text: #ecf0f3;
+    --footer-bottom-bg: #011d24;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.sections-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--secondary-color);
+    margin: 10px auto 0;
+    border-radius: 3px;
+}

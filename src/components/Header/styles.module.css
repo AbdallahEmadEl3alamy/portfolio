@@ -1,0 +1,51 @@
+.customHeader {
+    background-color: #fff !important;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 2rem 3px;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.headerLogo {
+    font-size: 24px !important;
+    font-weight: 600;
+    color: var(--primary-color) !important;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+.navLinks :global(.nav-link) {
+    color: var(--primary-color) !important;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0 15px !important;
+    transition: 0.3s;
+}
+
+.navLinks :global(.nav-link):hover {
+    color: var(--secondary-color) !important;
+}
+
+@media (max-width: 991px) {
+    .navLinks {
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .navLinks li {
+        margin-bottom: 3px;
+    }
+    .customHeader {
+        padding: 5px 1rem;
+    }
+    .customHeader :global(.navbar-toggler) {
+        border: none !important;
+        box-shadow: none !important;
+        outline: none !important;
+    }
+    .navLinks :global(.nav-link):focus {
+        color: var(--secondary-color) !important;
+    }
+}

@@ -1,0 +1,100 @@
+.bgMain {
+    background-color: var(--bg-primary);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.mainSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainTextWrapper {
+    letter-spacing: 2px;
+}
+
+.mainIntroSpan {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.mainTitle {
+    font-size: 55px;
+    color: var(--primary-color);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+.mainSubtitle {
+    font-size: 20px;
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.mainSocialLinks {
+    margin-bottom: 1.5rem;
+}
+
+.mainSocialLinks a i {
+    font-size: 20px;
+    padding: 10px;
+    background-color: var(--gray);
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    transition: 0.5s ease;
+}
+
+.mainSocialLinks a i:hover {
+    transform: scale(0.85);
+}
+
+.mainAvatar {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.btnSuccess {
+    background-color: var(--secondary-color) !important;
+    border: none !important;
+    padding: 10px 25px !important;
+    font-weight: 600 !important;
+}
+
+.btnSuccess:hover {
+    background-color: #15a076 !important;
+}
+
+@media (max-width: 991px) {
+    .bgMain {
+        margin-top: 40px;
+    }
+
+    .mainSection {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .mainTitle {
+        font-size: 35px;
+    }
+
+    .mainAvatar {
+        width: 280px;
+        height: 280px;
+        margin-bottom: 2rem;
+    }
+}
