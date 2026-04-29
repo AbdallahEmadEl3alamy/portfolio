@@ -62,7 +62,7 @@
     width: 450px;
     height: 450px;
     border-radius: 50%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px var(--card-shadow);
     object-fit: cover;
 }
 
@@ -79,7 +79,7 @@
 
 @media (max-width: 991px) {
     .bgMain {
-        margin-top: 40px;
+        margin-top: 50px;
     }
 
     .mainSection {
@@ -93,8 +93,8 @@
     }
 
     .mainAvatar {
-        width: 280px;
-        height: 280px;
+        width: 250px;
+        height: 250px;
         margin-top: 3rem !important;
         margin-bottom: 2rem !important;
     }
