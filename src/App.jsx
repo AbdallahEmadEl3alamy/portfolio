@@ -16,7 +16,7 @@ function App() {
       <Skills />
       <Services />
       <Projects />
-      <Contact /> {/* You need to extract styles variable and put them in ::root */}
+      <Contact />
       <Footer />
     </>
   )

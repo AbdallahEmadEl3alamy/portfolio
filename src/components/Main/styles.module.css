@@ -74,7 +74,7 @@
 }
 
 .btnSuccess:hover {
-    background-color: #15a076 !important;
+    background-color: var(--btnSuccess-hover) !important;
 }
 
 @media (max-width: 991px) {
@@ -85,7 +85,7 @@
     .mainSection {
         flex-direction: column-reverse;
         text-align: center;
-        padding: 60px 0;
+        padding: 40px 0;
     }
 
     .mainTitle {
@@ -95,6 +95,11 @@
     .mainAvatar {
         width: 280px;
         height: 280px;
-        margin-bottom: 2rem;
+        margin-top: 3rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .btnSuccess {
+        margin-bottom: 2rem !important;
     }
 }

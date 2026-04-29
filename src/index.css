@@ -10,6 +10,8 @@
     --secondary-color: #20c997;
     --gray: #4a4a4d;
     --bg-primary: #ecf0f3;
+    /* Main Variables */
+    --btnSuccess-hover: #15a076;
     /* Skills Variables */
     --card-hover-bg: #57575a;
     --card-shadow: rgba(0, 0, 0, 0.1);
