@@ -1,31 +1,23 @@
 import myProject1 from "../assets/myProject1.png";
+import myProject2 from "../assets/myProject2.png";
 
 export const myProjects = [
     {
         title: "E-Commerce",
-        description: "High-performance store with real-time Firebase integration, featuring advanced schema validation and secure checkout flows.",
-        technologies: ["React", "Zod", "React Hook Form"],
+        description: "A simple full-stack e-commerce website that allows users to browse products, with user-friendly UI, backend functionality and strong logic to ensure a smooth shopping experience.",
+        technologies: ["React", "TypeScript", "Bootstrap", "Redux Toolkit", "React Hook Form", "Zod"],
         image: myProject1,
-        liveLink: "...",
+        liveLink: "Not Deployed Yet",
         isRepoAvailable: true,
-        repoLink: "..."
+        repoLink: "https://github.com/AbdallahEmadEl3alamy/E-Commerce_Front"
     },
     {
-        title: "E-Commerce",
-        description: "High-performance store with real-time Firebase integration, featuring advanced schema validation and secure checkout flows.",
-        technologies: ["React", "Zod", "React Hook Form"],
-        image: myProject1,
-        liveLink: "...",
-        isRepoAvailable: false,
-        repoLink: "..."
-    },
-    {
-        title: "E-Commerce",
-        description: "High-performance store with real-time Firebase integration, featuring advanced schema validation and secure checkout flows.",
-        technologies: ["React", "Zod", "React Hook Form"],
-        image: myProject1,
-        liveLink: "...",
+        title: "Finance Tracker",
+        description: "A finance tracker app that allows users to manage their incomes and outcomes, providing a simple UI, efficient data management and charts to visualize spending patterns.",
+        technologies: ["React", "TypeScript", "Tailwind", "Local Storage", "Context API"],
+        image: myProject2,
+        liveLink: "https://finance-tracker-abdallah.vercel.app",
         isRepoAvailable: true,
-        repoLink: "..."
+        repoLink: "https://github.com/AbdallahEmadEl3alamy/Finance_Tracker"
     }
 ]
