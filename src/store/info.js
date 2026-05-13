@@ -27,7 +27,7 @@ export const imageProfile = profileImage;
 // Links
 export const whatsapp = "https://wa.me/201142349280";
 export const facebook = "https://www.facebook.com/profile.php?id=61577038830153";
-export const linkedin = "https://www.linkedin.com/in/abdallah-emad-ragab-96b790297";
-export const github = "https://github.com/AbdallahEmadEl3alamy";
+export const linkedin = "https://www.linkedin.com/in/abdallah-emad-ragab";
+export const github = "https://github.com/abdallah-emad-ragab";
 export const youtube = "https://www.youtube.com/channel/UCAWrgTggm1SvtC3pVTINKGw";
 export const submitKey = "edcfee69-4515-4e81-baa2-012956a043d1"; // Web3Forms Access Key
