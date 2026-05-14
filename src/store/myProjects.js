@@ -1,3 +1,4 @@
+import { github } from "./info";
 import myProject1 from "../assets/myProject1.png";
 import myProject2 from "../assets/myProject2.png";
 
@@ -7,9 +8,9 @@ export const myProjects = [
         description: "A simple full-stack e-commerce website that allows users to browse products, with user-friendly UI, backend functionality and strong logic to ensure a smooth shopping experience.",
         technologies: ["React", "TypeScript", "Bootstrap", "Redux Toolkit", "React Hook Form", "Zod"],
         image: myProject1,
-        liveLink: "Not Deployed Yet",
+        liveLink: "Not_Deployed_Yet",
         isRepoAvailable: true,
-        repoLink: "https://github.com/AbdallahEmadEl3alamy/E-Commerce_Front"
+        repoLink: `${github}/E-Commerce_Front`
     },
     {
         title: "Finance Tracker",
@@ -18,6 +19,6 @@ export const myProjects = [
         image: myProject2,
         liveLink: "https://finance-tracker-abdallah.vercel.app",
         isRepoAvailable: true,
-        repoLink: "https://github.com/AbdallahEmadEl3alamy/Finance_Tracker"
+        repoLink: `${github}/Finance_Tracker`
     }
 ]

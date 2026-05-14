@@ -1,8 +1,10 @@
 import { projects } from "../../store/info";
 import { myProjects } from "../../store/myProjects";
-import { projectsSection, cardCollection, projectCard, imgWrapper, 
-    projectImg, cardBody, projectTitle, projectDesc, 
-    techStack, techBadge, cardFooter, visitLink, repoBtn, repoDisabled } from "./styles.module.css";
+import {
+    projectsSection, cardCollection, projectCard, imgWrapper,
+    projectImg, cardBody, projectTitle, projectDesc,
+    techStack, techBadge, cardFooter, visitLink, repoBtn, repoDisabled
+} from "./styles.module.css";
 
 function Projects() {
     const handleImgClick = (imgSrc) => {
@@ -14,7 +16,7 @@ function Projects() {
             <div className="container">
                 <div className="text-center p-4 mb-4">
                     <h2 className="sections-title">
-                        <i className="fa-solid fa-laptop-code me-2" /> 
+                        <i className="fa-solid fa-laptop-code me-2" />
                         My <span>Projects</span>
                     </h2>
                 </div>
@@ -49,9 +51,15 @@ function Projects() {
                                     )}
 
                                     {/* Live Link */}
-                                    <a href={project.liveLink} target="_blank" rel="noreferrer" className={visitLink}>
-                                        Visit Website <i className="fa-solid fa-arrow-up-right-from-square ms-1" style={{fontSize: '12px'}}></i>
-                                    </a>
+                                    {project.liveLink.includes("Not_Deployed_Yet") ? (
+                                        <span className={repoDisabled} title="This project is under development">
+                                            <i className="fa-solid fa-hourglass-start me-1"></i> Coming Soon
+                                        </span>
+                                    ) : (
+                                        <a href={project.liveLink} target="_blank" rel="noreferrer" className={visitLink}>
+                                            Visit Website <i className="fa-solid fa-arrow-up-right-from-square ms-1" style={{ fontSize: '12px' }}></i>
+                                        </a>
+                                    )}
                                 </div>
                             </div>
                         </div>
